@@ -2,4 +2,4 @@
 
 see documentation here : 
 
-[Link text Here](https://nuxt-graphql-client.web.app/)
+[Nuxt GraphQL Client](https://nuxt-graphql-client.web.app/)
