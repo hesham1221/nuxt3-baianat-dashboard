@@ -12,6 +12,7 @@
     "lint:fix": "pnpm run lint --fix"
   },
   "dependencies": {
+    "nuxt-graphql-client": "^0.2.18",
     "pinia": "^2.0.26"
   },
   "devDependencies": {

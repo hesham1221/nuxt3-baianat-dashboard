@@ -64,8 +64,15 @@ export default defineNuxtConfig({
   modules: [
     '@pinia/nuxt',
     '@vueuse/nuxt',
-    '~/modules/primevue'
+    '~/modules/primevue',
+    'nuxt-graphql-client'
   ],
+  runtimeConfig: {
+    public: {
+      GQL_HOST: process.env.GQL_HOST || 'https://api.spacex.land/graphql' // add .env file and GQL_HOST variable to add the graphql host
+      // api.spacex is a placeholder api 
+    }
+  },
 
   nitro: {
     preset: 'vercel'

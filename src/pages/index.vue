@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import ProductService from '~~/services/ProductService';
-
 const productService = new ProductService();
 
 useHead({

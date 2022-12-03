@@ -12,7 +12,7 @@ export default {
       if (type === 'success') {
         this.message = [{ severity: 'success', detail: 'Success Message', content: 'Message sent', id: this.count++ }];
       } else if (type === 'info') {
-        this.message = [{ severity: 'info', detail: 'Info Message', content: 'PrimeVue rocks', id: this.count++ }];
+        this.message = [{ severity: 'info', detail: 'Info Message', content: 'Baianat rocks', id: this.count++ }];
       } else if (type === 'warn') {
         this.message = [{ severity: 'warn', detail: 'Warn Message', content: 'There are unsaved changes', id: this.count++ }];
       } else if (type === 'error') {
